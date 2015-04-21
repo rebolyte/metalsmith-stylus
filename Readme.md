@@ -40,6 +40,18 @@ var stylus = require('metalsmith-stylus');
 metalsmith.use(stylus());
 ```
 
+or
+
+```js
+metalsmith.use(stylus({ use: axis() }));
+```
+
+or 
+
+```js
+metalsmith.use(stylus({ use: [axis(), jeet(), rupture] }));
+```
+
 ## Options
 
 None yet
