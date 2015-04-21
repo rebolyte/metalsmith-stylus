@@ -49,7 +49,7 @@ metalsmith.use(stylus({ use: axis() }));
 or 
 
 ```js
-metalsmith.use(stylus({ use: [axis(), jeet(), rupture] }));
+metalsmith.use(stylus({ use: [ axis(), jeet(), rupture() ] }));
 ```
 
 ## Options
